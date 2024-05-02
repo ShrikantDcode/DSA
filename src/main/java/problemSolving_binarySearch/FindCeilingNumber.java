@@ -3,7 +3,7 @@ package problemSolving_binarySearch;
 public class FindCeilingNumber {
     public static void main(String[] args) {
         int[] arr = {1, 5, 14, 16, 22, 45, 78, 90};
-        int target = 35;
+        int target = 45;
 
         System.out.println(ceilingFromArray(arr, target));
     }
@@ -20,6 +20,7 @@ public class FindCeilingNumber {
             } else if(target < arr[mid]) {
                 end = mid -1;
             } else {
+                // when target == arr[mid]
                 return mid;
             }
 

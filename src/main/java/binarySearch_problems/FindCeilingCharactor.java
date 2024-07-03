@@ -22,7 +22,7 @@ public class FindCeilingCharactor {
                 end = mid - 1;
             } else if(target > arr[mid]){
                 start = mid + 1;
-            } else if(target >= arr[mid]){
+            } else if(target == arr[mid]){
                 return mid+1 > arr.length-1 ? arr[0] : arr[mid+1];
             }
 

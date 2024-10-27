@@ -1,4 +1,4 @@
-package binarySearch_problems;
+package binarySearchProblems;
 
 public class FindTwoNumbers {
 

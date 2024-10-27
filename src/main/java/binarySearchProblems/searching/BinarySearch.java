@@ -1,4 +1,4 @@
-package searching;
+package binarySearchProblems.searching;
 
 public class BinarySearch implements searchable {
     @Override

@@ -1,4 +1,4 @@
-package problemsolving;
+package subArrayProblems;
 
 import java.util.Arrays;
 

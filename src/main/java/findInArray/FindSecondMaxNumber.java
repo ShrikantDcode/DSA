@@ -1,4 +1,4 @@
-package problemsolving;
+package findInArray;
 
 public class FindSecondMaxNumber {
     public static void main(String[] args) {

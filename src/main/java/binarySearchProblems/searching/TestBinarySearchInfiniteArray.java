@@ -1,4 +1,4 @@
-package searching;
+package binarySearchProblems.searching;
 
 public class TestBinarySearchInfiniteArray {
     public static void main(String[] args) {

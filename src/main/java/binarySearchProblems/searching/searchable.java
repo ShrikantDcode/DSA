@@ -1,4 +1,4 @@
-package searching;
+package binarySearchProblems.searching;
 
 public interface searchable {
      int search(int[] arr, int target);

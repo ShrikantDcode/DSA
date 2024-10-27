@@ -1,4 +1,4 @@
-package problemsolving;
+package subArrayProblems;
 
 public class FindMaxSumOfSubArr {
     public static void main(String[] args) {

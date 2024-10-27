@@ -1,4 +1,4 @@
-package binarySearch_problems;
+package binarySearchProblems;
 
 public class FindCeilingCharactor {
     public static void main(String[] args) {

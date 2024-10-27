@@ -1,7 +1,6 @@
-package problemsolving;
+package reductionProblems;
 
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 public class ProductOfArrayExceptSelf {
     public static void main(String[] args) {

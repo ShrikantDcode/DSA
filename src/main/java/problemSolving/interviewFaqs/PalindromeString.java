@@ -2,7 +2,8 @@ package problemSolving.interviewFaqs;
 
 public class PalindromeString {
     public static void main(String[] args) {
-        String s = "abbdbba";
+        String s = "race a car";
+        s = s.replaceAll(" ","");
         System.out.println("is Palindrome: "+ checkIfPalindrome(s));
     }
     static boolean checkIfPalindrome(String s){

@@ -15,7 +15,7 @@ public class FindLongestuniqueSubstring {
                 // Break the loop
                 if (visited[s.charAt(j)]) {
 
-                    sb.append(s.charAt(j));
+                     sb.append(s.charAt(j));
                     break;
                 }
                 else {

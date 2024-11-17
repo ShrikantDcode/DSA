@@ -1,15 +1,16 @@
 package problemSolving.interviewFaqs;
 
-public class PalindromeStringSpecialChar {
+public class Solution {
     public static void main(String[] args) {
-        String s = "a@b#bdg%ba"; //ignore special char
-        System.out.println("is Palindrome: "+ checkIfPalindrome(s));
+        String s = "A man, a plan, a canal: Panama";
+        s = "j,:mj";
+        System.out.println(isPalindrome(s));
     }
-    static boolean checkIfPalindrome(String s){
-        if(s.isEmpty() || s.length() == 1) {
+    public static boolean isPalindrome(String s) {
+        if(s.isEmpty()) {
             return true;
         }
-
+        s = s.toLowerCase();//.replaceAll("[^a-z0-9]","");
         int left =0, right = s.length() - 1;
         while(left <= right) {
             while(left <= right && !Character.isLetterOrDigit(s.charAt(left))){
@@ -18,7 +19,7 @@ public class PalindromeStringSpecialChar {
             while(left <= right && !Character.isLetterOrDigit(s.charAt(right))){
                 right--;
             }
-            if(left <= right &&  Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))){
+            if(s.charAt(left) != s.charAt(right)){
                 return false;
             }
 

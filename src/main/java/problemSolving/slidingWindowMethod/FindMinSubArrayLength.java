@@ -1,4 +1,4 @@
-package problemSolving.subArrays;
+package problemSolving.slidingWindowMethod;
 
 public class FindMinSubArrayLength {
     public static void main(String[] args) {

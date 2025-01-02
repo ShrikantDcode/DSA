@@ -1,4 +1,4 @@
-package problemSolving.subArrays;
+package problemSolving.slidingWindowMethod;
 
 import java.util.HashMap;
 
